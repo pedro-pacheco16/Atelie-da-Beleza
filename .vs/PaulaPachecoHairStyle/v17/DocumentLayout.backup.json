@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|c:\\users\\lenovo\\desktop\\paula_hair\\paulapachecohairstyle\\migrations\\20241114153718_add_photos01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|solutionrelative:migrations\\20241114153718_add_photos01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|c:\\users\\lenovo\\desktop\\paula_hair\\paulapachecohairstyle\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|c:\\users\\lenovo\\desktop\\paula_hair\\paulapachecohairstyle\\views\\photo\\listphoto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|solutionrelative:views\\photo\\listphoto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|c:\\users\\lenovo\\desktop\\paula_hair\\paulapachecohairstyle\\controllers\\procedurescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|solutionrelative:controllers\\procedurescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|c:\\users\\lenovo\\desktop\\paula_hair\\paulapachecohairstyle\\views\\procedures\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|solutionrelative:views\\procedures\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|c:\\users\\lenovo\\desktop\\paula_hair\\paulapachecohairstyle\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|solutionrelative:models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|c:\\users\\lenovo\\desktop\\paula_hair\\paulapachecohairstyle\\migrations\\20241107194826_popularphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|solutionrelative:migrations\\20241107194826_popularphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|c:\\users\\lenovo\\desktop\\paula_hair\\paulapachecohairstyle\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|c:\\users\\lenovo\\desktop\\paula_hair\\paulapachecohairstyle\\views\\shared\\_caroussel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|solutionrelative:views\\shared\\_caroussel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|c:\\users\\lenovo\\desktop\\paula_hair\\paulapachecohairstyle\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{661FE4AA-877E-45C3-8064-94FCF957A3A6}|PaulaPachecoHairStyle.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 239,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Photo.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Models\\Photo.cs",
+              "RelativeDocumentMoniker": "Models\\Photo.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Models\\Photo.cs",
+              "RelativeToolTip": "Models\\Photo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T17:12:36.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241107194826_PopularPhoto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Migrations\\20241107194826_PopularPhoto.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241107194826_PopularPhoto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Migrations\\20241107194826_PopularPhoto.cs",
+              "RelativeToolTip": "Migrations\\20241107194826_PopularPhoto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T15:41:36.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241114153718_ADD_PHOTOS01.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Migrations\\20241114153718_ADD_PHOTOS01.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241114153718_ADD_PHOTOS01.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Migrations\\20241114153718_ADD_PHOTOS01.cs",
+              "RelativeToolTip": "Migrations\\20241114153718_ADD_PHOTOS01.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T15:41:33.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProceduresController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Controllers\\ProceduresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProceduresController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Controllers\\ProceduresController.cs",
+              "RelativeToolTip": "Controllers\\ProceduresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T20:32:52.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListPhoto.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Views\\Photo\\ListPhoto.cshtml",
+              "RelativeDocumentMoniker": "Views\\Photo\\ListPhoto.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Views\\Photo\\ListPhoto.cshtml",
+              "RelativeToolTip": "Views\\Photo\\ListPhoto.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T20:58:32.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Views\\Procedures\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Procedures\\List.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Views\\Procedures\\List.cshtml",
+              "RelativeToolTip": "Views\\Procedures\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T02:45:44.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAANAAAAAAAAAAAAAuwO0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-08T03:20:02.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Caroussel.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Views\\Shared\\_Caroussel.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Caroussel.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Views\\Shared\\_Caroussel.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Caroussel.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T04:14:22.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T03:14:39.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T15:49:38.206Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 161,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

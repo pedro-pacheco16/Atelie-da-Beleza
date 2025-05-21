@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PaulaPachecoHairStyle.bundle.scp.css",
-      "PackagePath": "staticwebassets\\PaulaPachecoHairStyle.bundle.scp.css"
+      "PackagePath": "staticwebassets\\PaulaPachecoHairStyle.gx9ndd0tyb.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\wwwroot\\Areas\\Admin\\Controller\\AdminImagensController.cs",
@@ -75,6 +75,10 @@
     {
       "Id": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\wwwroot\\images\\salão03.jpeg",
       "PackagePath": "staticwebassets\\images\\salão03.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\wwwroot\\js\\appointment-validation.js",
+      "PackagePath": "staticwebassets\\js\\appointment-validation.js"
     },
     {
       "Id": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\wwwroot\\js\\site.js",
@@ -307,6 +311,10 @@
     {
       "Id": "C:\\Users\\LENOVO\\Desktop\\Paula_hair\\PaulaPachecoHairStyle\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PaulaPachecoHairStyle.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PaulaPachecoHairStyle.Microsoft.AspNetCore.StaticWebAssets.props",

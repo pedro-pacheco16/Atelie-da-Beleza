@@ -1,0 +1,164 @@
+﻿@model PaulaPachecoHairStyle.Models.ViewModel.AppointmentFormViewModel
+
+@{
+    ViewBag.Title = "Agendar Serviço";
+}
+
+<h2>Agendar Serviço</h2>
+
+<form asp-action="Create" id="appointmentForm" method="post">
+    <div>
+        <label>Nome</label>
+        <input asp-for="CustomerName" />
+        <span asp-validation-for="CustomerName" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Serviço</label>
+        <select asp-for="ProcedureId" asp-items="Model.AvailableProcedures">
+            <option value="">Selecione...</option>
+        </select>
+        <span asp-validation-for="ProcedureId" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Data e Hora</label>
+        <input asp-for="AppointmentDate" type="datetime-local"
+               id="appointmentDate"
+               min="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" />
+        <span id="date-error" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Email</label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Telefone</label>
+        <input asp-for="Phone" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+
+    <button type="submit">Agendar</button>
+</form>
+
+@section Scripts {
+   @*  <partial name="_ValidationScriptsPartial" /> *@
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        $(function () {
+            console.log("script embutido carregado!");
+
+            function validateForm() {
+                let isValid = true;
+                let messages = [];
+
+                const name = $('#CustomerName').val().trim();
+                const procedure = $('#ProcedureId').val();
+                const date = $('#appointmentDate').val();
+                const email = $('#Email').val().trim();
+                const phone = $('#Phone').val().trim();
+
+                if (name === '') {
+                    isValid = false;
+                    messages.push('O nome é obrigatório.');
+                }
+
+                if (!procedure) {
+                    isValid = false;
+                    messages.push('Selecione um serviço.');
+                }
+
+                if (date === '') {
+                    isValid = false;
+                    messages.push('A data e hora são obrigatórias.');
+                }
+
+                if (email === '') {
+                    isValid = false;
+                    messages.push('O e-mail é obrigatório.');
+                }
+
+                if (phone === '') {
+                    isValid = false;
+                    messages.push('O telefone é obrigatório.');
+                }
+
+                if ($('#date-error').text() !== '') {
+                    isValid = false;
+                    messages.push('Escolha um horário válido.');
+                }
+
+                if (!isValid) {
+                    Swal.fire({
+                        icon: 'warning',
+                        title: 'Campos obrigatórios',
+                        html: messages.join('<br>')
+                    });
+                }
+
+                return isValid;
+            }
+
+            $('#appointmentDate').on('blur change', function () {
+                const dateInput = $(this).val();
+                if (!dateInput) return;
+
+                $.getJSON('/Appointment/IsTimeAvailable', { date: dateInput })
+                    .done(function (data) {
+                        if (!data) {
+                            $('#date-error').text('Este horário já está ocupado.');
+                        } else {
+                            $('#date-error').text('');
+                        }
+                    })
+                    .fail(function () {
+                        $('#date-error').text('Erro ao verificar o horário.');
+                    });
+            });
+
+            $('#appointmentForm').on('submit', function (e) {
+                e.preventDefault();
+
+                if (!validateForm()) {
+                    return;
+                }
+
+                $.ajax({
+                    url: $(this).attr('action'),
+                    type: 'POST',
+                    data: $(this).serialize(),
+                    success: function (response) {
+                        if (response.success) {
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Pronto!',
+                                html: response.message,
+                                confirmButtonText: 'OK'
+                            }).then(() => {
+                                $('#appointmentForm')[0].reset();
+                                $('#date-error').text('');
+                            });
+                        } else {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Erro no agendamento',
+                                html: response.message
+                            });
+                        }
+                    },
+                    error: function () {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Falha no servidor',
+                            text: 'Tente novamente mais tarde.'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+}

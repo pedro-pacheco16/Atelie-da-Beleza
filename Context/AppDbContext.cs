@@ -12,5 +12,6 @@ namespace PaulaPachecoHairStyle.Context
 
         public DbSet<Photo> Photo { get; set; }
         public DbSet<Procedure> Procedures { get; set; } 
+        public DbSet<Appointment> Appointments { get; set; }
     }
 }
